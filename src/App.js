@@ -1,4 +1,4 @@
-import About from './pages/Experience';
+import About from './pages/About';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Navbar from './pages/Navbar';
