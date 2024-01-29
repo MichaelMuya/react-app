@@ -26,14 +26,15 @@ In React, using 'class' will cause a conflict because it's a reserved keyword in
 
 ```javascript
 <button onClick={setCounter(counter + 1)}> +1 </button>
-
+```
 In React, 'onClick' expects a function to be referred but here, the setCounter expression is invoked immediately. A fix would be to pass a function reference like:
+```javascript
 <button onClick={() => setCounter(counter + 1)}> +1 </button>
-
-##7) What is object deconstruction and how is it connected to React components (example)?
+```
+## 7) What is object deconstruction and how is it connected to React components (example)?
 Object deconstruction in JavaScript allows you to extract values from the 'props' object and assign them to variables, making it easier to work with some properties. An example would be: 
 #definition
-
+```javascript
 const WithDestructuring = ({ user }) => {
   const { name, email } = user;
 
@@ -44,9 +45,10 @@ const WithDestructuring = ({ user }) => {
     </div>
   );
 };
-
+```
 **8) How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?**
 Both can be used through JSX which is an extension that allows you to write html code within the JS functions.It is transformed under the hood during building that's why it is possible. Below is an example
+```javascript
 const MyComponent = ({ name }) => {
   return (
     <div>
@@ -56,8 +58,10 @@ const MyComponent = ({ name }) => {
   );
 };
 export default MyComponent;
+```
 **9) What is async/await? Bring an example**
 This syntax handles asynchronous operations in JS. "Async' declares the asynchronous function while 'await' waits for a promise to resolve but continues to execute. An example is shown below: 
+```javascript
 const delayFunction = async () => {
   console.log('Start');
 
@@ -67,7 +71,7 @@ const delayFunction = async () => {
 };
 
 delayFunction();
-
+```
 **10) What is a Promise? Bring an example**
 A promise is an object in JavaScript used for asynchronous operations.From the word itself, a promise is shown when the an asynchronous task is completed and it allows you to handle the result or when an error occurs. An example of a promise is: 
 ```javascript
