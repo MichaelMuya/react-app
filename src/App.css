@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
 
 @media screen and (max-width: 1200px){
-    #main{
+    .mainh{
         display: none;
     }
-    #icon{
+    .iconh{
         display: flex;
       }
-      #experience{
+      .experienceh{
         margin-top: 2rem;
       }
-      #profile,
+      .profileh,
       .about_sec {
         display: block;
       }
@@ -32,25 +32,25 @@
 }
 
 @media screen and(max-width: 1400px){
-    #profile {
+    .profileh {
         height: 83vh;
         margin-bottom: 6rem;
       }
       .about-containers {
         flex-wrap: wrap;
       }
-      #contact,
-      #projects {
+      .contacth,
+      .projectsh {
         height: fit-content;
       }
 }
 
 @media screen and (max-width: 600px) {
-    #contact,
+    .contacth,
     footer {
       height: 40vh;
     }
-    #profile {
+    .profileh {
       height: 83vh;
       margin-bottom: 0;
     }
@@ -99,7 +99,7 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-#main{
+.mainh{
     display: none;
 }
 
@@ -249,7 +249,7 @@ section {
   
   /* PROFILE SECTION */
   
-  #profile {
+  .profileh {
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -274,7 +274,7 @@ section {
     text-align: center;
   }
   
-  #socials-container {
+  .socials-containerh {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
@@ -288,7 +288,7 @@ section {
     height: 2rem;
   }
   
-  #about {
+  .abouth {
     position: relative;
   }
   
@@ -345,7 +345,7 @@ section {
   
   /* EXPERIENCE SECTION */
   
-  #experience {
+  .experienceh {
     position: relative;
   }
   .article-container {
@@ -355,7 +355,7 @@ section {
     text-align: initial;
     flex-wrap: wrap;
     flex-direction: row;
-    gap: 2.5rem;
+    gap: 1.5rem;
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: rgb(163, 163, 163);
     justify-content: space-around;
@@ -368,7 +368,7 @@ section {
     gap: 0.5rem;
   }
   
-  #contact {
+  .contacth {
     display: flex;
     justify-content: center;
     flex-direction: column;

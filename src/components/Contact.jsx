@@ -1,7 +1,7 @@
-import "./App.css";
+import "../App.css";
 const Contact = () => {
     return ( 
-        <section id="contact">
+        <section className="contacth">
         <h1 className="title">Contact Me</h1>
         <div className="contact-info-upper-container">
           <div className="contact-info-container">

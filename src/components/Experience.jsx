@@ -1,7 +1,7 @@
-import "./App.css";
+import "../App.css";
 const Experience = () => {
     return ( 
-        <section id="experience">
+        <section className="experienceh">
         <h1 className="title">Skills</h1>
               <div className="article-container">
                 <article>

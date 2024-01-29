@@ -1,14 +1,13 @@
-import "./App.css";
+import "../App.css";
 const About = () => {
     return (  
 
-        <section id="about">
+        <section className="abouth">
         <h1 className="title">About Me</h1>
         <div className="about_sec">
           <div className="pic_div">
             <img
-              src="./src/assets/Photos.jpg"
-              alt="Profile picture"
+              src="../src/assets/Photos.jpg"
             />
           </div>
           <div className="about-details-container">
