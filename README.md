@@ -1,6 +1,5 @@
 Deployed website is ("https://michaelmuya.github.io/react-app/")
 
-
 1) What is NPM(Node package manager)?
 It's a tool in Javascript that comes with Node.js, and that helps one to manage and share packagers used in projects easily. Developers install, share and manage libraries using npm for their JS projects.
 2) What is SPA(Single Page Application)?

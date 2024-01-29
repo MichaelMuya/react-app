@@ -1,5 +1,3 @@
-import "./App.css";
-
 function alt() {
     const menu_link = document.querySelector(".menu_links");
     const icon = document.querySelector(".icon_click");
