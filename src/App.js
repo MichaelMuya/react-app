@@ -1,8 +1,10 @@
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Experience from './pages/Experience';
-import Navbar from './pages/Navbar';
-import Profile from './pages/Profile';
+import About from './components/About.jsx';
+import "./App.css";
+import "./script.js";
+import Contact from './components/Contact.jsx';
+import Experience from './components/Experience.jsx';
+import Navbar from './components/Navbar.jsx';
+import Profile from './components/Profile.jsx';
 
 
 import React, {useState, useEffect} from 'react';
